@@ -28,6 +28,10 @@ def calculate_gpa(scores):
     gpa = sum(grade_points[g] for g in grades) / len(grades)
     return round(gpa, 2)
 
+def get_honor_roll(students_scores):
+    # TODO: กำลังทำอยู่ ยังไม่เสร็จ
+    pass
+
 if __name__ == "__main__":
     print("=== ระบบตัดเกรด ===")
     score = float(input("กรอกคะแนน (0-100): "))
