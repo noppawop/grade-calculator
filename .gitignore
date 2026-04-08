@@ -20,4 +20,4 @@ Thumbs.db
 
 # ข้อมูลนักศึกษา (ข้อมูลจริง ห้าม commit)
 students_data.csv
-*.secret
+*.secretlocal_config.txt
